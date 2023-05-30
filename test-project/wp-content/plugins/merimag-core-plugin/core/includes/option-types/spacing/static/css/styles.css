@@ -1,0 +1,49 @@
+.fw-icon-input {
+	position: relative;
+}
+.fw-icon-input span {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	width: 28px;
+	background: #eee;
+	text-align: center;
+	line-height: 26px;
+	display: block;
+}
+.fw-icon-input.only-icon span {
+	position: relative;
+	line-height: 26px;
+	border: 1px #ddd solid;
+}
+.fw-icon-input.only-icon span.fw-link-fields {
+	background-color: #00709f;
+	color: #fff;
+}
+.fw-icon-input > input[type=text],
+.fw-icon-input > input[type=number],
+.fw-icon-input > input[type=password],
+.fw-icon-input > input[type=email],
+.fw-icon-input > input[type=search],
+.fw-icon-input > input[type=url] {
+	padding-left: 38px!important;
+}
+.fw-option-type-spacing {
+	font-size: 0;
+	margin: -5px;
+}
+.fw-option-type-spacing .fw-field-container {
+	width: 20%;
+	font-size: 1rem;
+	font-size: 13px;
+	display: inline-block;
+	padding: 5px;
+	box-sizing: border-box;
+	min-width: 100px;
+	vertical-align: middle;
+}
+
+.fw-option-type-spacing .fw-field-container input {
+	max-width: 100%;
+}

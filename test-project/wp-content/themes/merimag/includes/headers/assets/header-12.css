@@ -1,0 +1,16 @@
+.merimag-main-navigation {
+	background-color: #000;
+	color: #eee;
+}
+
+.merimag-site-header {
+	border-bottom: 5px #000 solid;
+	border-top: 5px #000 solid;
+}
+.merimag-main-navigation .menu > li > .sub-menu,
+.merimag-main-navigation .menu > li > .mega-menu > .sub-menu {
+	border-top-width: 5px;
+}
+.merimag-main-navigation a, .merimag-main-navigation a:active, .merimag-main-navigation a:visited {
+	color: #fff;
+}

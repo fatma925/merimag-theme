@@ -1,0 +1,11 @@
+.primary-color, .secondary-color {
+	float: left;
+	margin-right: 5px;
+}
+body.rtl .primary-color, body.rtl .secondary-color {
+	margin-left: 5px;
+	margin-right: 0px; 
+}
+.gradient-dgree {
+	overflow: hidden;
+}

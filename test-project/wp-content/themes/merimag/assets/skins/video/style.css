@@ -1,0 +1,7 @@
+.general-box-container:not(.ignore-general-style) {
+	border: 1px solid #ccc;
+	padding: 30px;
+}
+.site-content-area-style {
+	border: 1px solid #ccc;
+}

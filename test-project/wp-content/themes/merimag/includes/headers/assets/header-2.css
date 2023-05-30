@@ -1,0 +1,13 @@
+@media only screen and ( min-width: 1100px ) {
+	.merimag-site-header {
+		border-bottom: 1px solid;
+	}
+}
+
+.merimag-site-navigation {
+	position: static;
+}
+.merimag-main-navigation .menu > li > a > span.menu-item-content,
+.merimag-main-navigation .custom-menu-item-content {
+	padding: 0 15px;
+}

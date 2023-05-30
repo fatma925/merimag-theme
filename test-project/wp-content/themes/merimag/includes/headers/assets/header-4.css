@@ -1,0 +1,11 @@
+
+
+.merimag-site-header {
+	border-bottom: 5px #000 solid;
+	border-top: 5px #000 solid;
+}
+.merimag-main-navigation .menu > li > .sub-menu,
+.merimag-main-navigation .menu > li > .mega-menu > .sub-menu {
+	border-top-width: 5px;
+}
+

@@ -1,0 +1,4 @@
+.general-box-container:not(.ignore-general-style) {
+	background:#fff;
+	padding: 30px;
+}

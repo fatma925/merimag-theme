@@ -1,0 +1,829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Multi Demo Master\n"
+"POT-Creation-Date: 2016-12-06 22:16+0000\n"
+"PO-Revision-Date: 2016-12-06 22:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Merrasse Mouhcine <merrasse.mouhcine@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:92
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:194
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:263
+#, php-format
+msgid "The %s input field for %s only allows numeric values."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:153
+#, php-format
+msgid "The %s Colorpicker only allows valid hexadecimal or rgba values."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:425
+#: includes/wpmdm-import-options/options-loader.php:450
+msgid "Send"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:426
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:409
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:3310
+msgid "Remove Media"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:427
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:428
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:429
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:430
+msgid "Sorry, you can't have settings three levels deep."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:431
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1419
+msgid "Delete Gallery"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:432
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1420
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:433
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1427
+msgid "Create Gallery"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:434
+msgid "Are you sure you want to delete this Gallery?"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:435
+msgid "Today"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:436
+msgid "Now"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:437
+#: includes/wpmdm-import-options/includes/options-settings-api.php:322
+msgid "Close"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:438
+msgid "Featured Image"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:439
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1331
+msgid "Image"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:507
+msgid "WPmdpm Options"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:677
+msgid "Background"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:678
+msgid "Border"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:679
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:680
+msgid "Category Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:681
+msgid "Category Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:682
+msgid "Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:683
+msgid "Colorpicker"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:684
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:685
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:686
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:687
+msgid "Date Picker"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:688
+msgid "Date Time Picker"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:689
+msgid "Dimension"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:690
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2154
+msgid "Gallery"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:691
+msgid "Link Color"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:692
+msgid "List Item"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:693
+msgid "Measurement"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:694
+msgid "Numeric Slider"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:695
+msgid "On/Off"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:696
+msgid "Page Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:697
+msgid "Page Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:698
+msgid "Post Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:699
+msgid "Post Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:700
+msgid "Radio"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:701
+msgid "Radio Image"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:702
+msgid "Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:703
+msgid "Sidebar Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:704
+msgid "Social Links"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:705
+msgid "Spacing"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:706
+msgid "Tab"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:707
+msgid "Tag Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:708
+msgid "Tag Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:709
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:710
+msgid "Taxonomy Select"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:711
+msgid "Text"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:712
+msgid "Textarea"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:713
+msgid "Textarea Simple"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:714
+msgid "Textblock"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:715
+msgid "Textblock Titled"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:716
+msgid "Typography"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:717
+msgid "Upload"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1342
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2194
+msgid "Link"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1353
+msgid "Description"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1391
+#: wpmdm-import-helpers.php:275
+msgid "Name"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1392
+msgid "Enter the name of the social website."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1400
+msgid "Enter the text shown in the title attribute of the link."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1406
+#, php-format
+msgid ""
+"Enter a link to the profile or page on the social website. Remember to add "
+"the %s part to the front of the link."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1463
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1645
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1646
+msgid "Edit"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1465
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1648
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:1649
+msgid "Delete"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2203
+msgid "Link URL"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2210
+msgid "Link Title"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2240
+msgid "Quote"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2249
+msgid "Source Name (ex. author, singer, actor)"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2256
+msgid "Source URL"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2263
+msgid "Source Title (ex. book, song, movie)"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2270
+msgid "Source Date"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2300
+msgid "Video"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2309
+#, php-format
+msgid ""
+"Embed video from services like Youtube, Vimeo, or Hulu. You can find a list "
+"of supported oEmbed sites in the %1$s. Alternatively, you could use the "
+"built-in %2$s shortcode."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2309
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2348
+msgid "Wordpress Codex"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2339
+msgid "Audio"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2348
+#, php-format
+msgid ""
+"Embed audio from services like SoundCloud and Rdio. You can find a list of "
+"supported oEmbed sites in the %1$s. Alternatively, you could use the built-"
+"in %2$s shortcode."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2539
+msgid "The folder does not contain any files!"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2576
+msgid "Download"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-admin.php:2584
+msgid "delete"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:44
+msgid "Sorry, this function does not exist"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:96
+msgid "You must create demos first!"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:164
+msgid "Clear Folder"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:167
+msgid "Refresh Folder"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:285
+msgid "repeat"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:306
+msgid "attachment"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:327
+msgid "position"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:375
+msgid "size"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:390
+msgid "image"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:393
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:3294
+msgid "Add Media"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:471
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1303
+msgid "width"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:482
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1323
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1749
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2608
+msgid "unit"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:501
+msgid "style"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:598
+msgid "offset-x"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:607
+msgid "offset-y"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:616
+msgid "blur-radius"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:625
+msgid "spread-radius"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:750
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1126
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2021
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2132
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2748
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2863
+msgid "Choose One"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:755
+msgid "No Categories Found"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:852
+msgid "Filter"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:897
+msgid "Array"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1074
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1132
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2083
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2138
+msgid "No Posts Found"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1312
+msgid "height"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1580
+#: includes/wpmdm-import-options/includes/options-meta-box-api.php:246
+#: includes/wpmdm-import-options/includes/options-settings-api.php:768
+msgid "Title"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1666
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1691
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1873
+msgid "On"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1895
+msgid "Off"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:1972
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2027
+msgid "No Pages Found"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2355
+msgid "Select icon"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2508
+msgid "Choose Sidebar"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2513
+msgid "No Sidebars"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2570
+msgid "top"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2579
+msgid "right"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2588
+msgid "bottom"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2597
+msgid "left"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2699
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2753
+msgid "No Tags Found"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2811
+#: includes/wpmdm-import-options/includes/options-functions-option-types.php:2868
+msgid "No Taxonomies Found"
+msgstr ""
+
+#: includes/wpmdm-import-options/includes/options-settings-api.php:385
+#: wpmdm-import-helpers.php:145
+msgid "Reset Options"
+msgstr ""
+
+#: wpmdm-import-helpers.php:20
+msgid "No options found, make sure you have set the correct options name!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:33
+msgid "Multi Demo Settings"
+msgstr ""
+
+#: wpmdm-import-helpers.php:34
+msgid "Multi Demo"
+msgstr ""
+
+#: wpmdm-import-helpers.php:39
+msgid "Multi Demo Settings Updated."
+msgstr ""
+
+#: wpmdm-import-helpers.php:40
+msgid "Multi Demo Settings Reset."
+msgstr ""
+
+#: wpmdm-import-helpers.php:41 wpmdm-import-helpers.php:144
+msgid "Save Changes"
+msgstr ""
+
+#: wpmdm-import-helpers.php:42
+msgid "Reset settings"
+msgstr ""
+
+#: wpmdm-import-helpers.php:49
+msgid "General Settings"
+msgstr ""
+
+#: wpmdm-import-helpers.php:54 wpmdm-import-helpers.php:81 wpmdm-import-helpers.php:86
+msgid "Export Demos"
+msgstr ""
+
+#: wpmdm-import-helpers.php:62
+msgid "Theme Options Name"
+msgstr ""
+
+#: wpmdm-import-helpers.php:71
+msgid "User Selected Demo Expiration ( In Hours )"
+msgstr ""
+
+#: wpmdm-import-helpers.php:72
+msgid "Set number of hours that Wordpress should keep user selected demo data"
+msgstr ""
+
+#: wpmdm-import-helpers.php:92
+msgid "Export in progress!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:93
+msgid "Export Completed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:94
+msgid "Export failed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:99
+msgid "Old Exports"
+msgstr ""
+
+#: wpmdm-import-helpers.php:109
+msgid "Clearing exports in progress!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:110
+msgid "Clearing exports completed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:111
+msgid "Cleaing Exports failed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:114
+msgid "Refreshing exports folder in progress!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:115
+msgid "Refreshing exports folder completed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:116
+msgid "Refreshing exports folder failed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:119
+msgid "Checking exports folder!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:120
+msgid "Checking exports completed!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:121
+msgid "Not a valid exports folder!"
+msgstr ""
+
+#: wpmdm-import-helpers.php:136 wpmdm-import-helpers.php:137 wpmdm-import-helpers.php:152
+msgid "Manage Options"
+msgstr ""
+
+#: wpmdm-import-helpers.php:142
+msgid "Multi Demo Options Updated."
+msgstr ""
+
+#: wpmdm-import-helpers.php:143
+msgid "Multi Demo Options Reset."
+msgstr ""
+
+#: wpmdm-import-helpers.php:159
+msgid "Demos Options"
+msgstr ""
+
+#: wpmdm-import-helpers.php:161 wpmdm-import-helpers.php:273
+msgid "Add Option"
+msgstr ""
+
+#: wpmdm-import-helpers.php:166
+msgid ""
+"No options added, you can add options from available options on the "
+"available options box, or add one manually by clicking the add new button"
+msgstr ""
+
+#: wpmdm-import-helpers.php:170
+msgid "Frontend Title"
+msgstr ""
+
+#: wpmdm-import-helpers.php:171
+msgid "Title that will display for demo builder tool in frontend"
+msgstr ""
+
+#: wpmdm-import-helpers.php:177
+msgid "Values Type"
+msgstr ""
+
+#: wpmdm-import-helpers.php:191
+msgid "Possible Text Values"
+msgstr ""
+
+#: wpmdm-import-helpers.php:195 wpmdm-import-helpers.php:213 wpmdm-import-helpers.php:232
+msgid "Add Value"
+msgstr ""
+
+#: wpmdm-import-helpers.php:209
+msgid "Possible Image Values"
+msgstr ""
+
+#: wpmdm-import-helpers.php:218 wpmdm-import-helpers.php:237
+msgid "Value"
+msgstr ""
+
+#: wpmdm-import-helpers.php:228
+msgid "Backgrounds"
+msgstr ""
+
+#: wpmdm-import-helpers.php:248
+msgid "Default Color"
+msgstr ""
+
+#: wpmdm-import-helpers.php:256
+msgid "Default Value"
+msgstr ""
+
+#: wpmdm-import-helpers.php:266
+msgid "Available Options"
+msgstr ""
+
+#: wpmdm-import-helpers.php:275
+msgid "Current Val"
+msgstr ""
+
+#: wpmdm-import-helpers.php:275
+msgid "Action"
+msgstr ""
+
+#: wpmdm-import-helpers.php:369
+msgid "Support"
+msgstr ""
+
+#: wpmdm-import-helpers.php:393
+msgid "Here"
+msgstr ""
+
+#: wpmdm.php:186
+msgid "You must set theme options name to build demos!"
+msgstr ""
+
+#: wpmdm.php:190
+msgid "You can set it here!"
+msgstr ""
+
+#: wpmdm.php:1073
+msgid "Post Settings"
+msgstr ""
+
+#: wpmdm.php:1099 wpmdm.php:1101
+msgid "Demos"
+msgstr ""
+
+#: wpmdm.php:1100 wpmdm.php:1102
+msgid "Demo"
+msgstr ""
+
+#: wpmdm.php:1103
+msgid "Add New Demo"
+msgstr ""
+
+#: wpmdm.php:1104
+msgid "New Demo"
+msgstr ""
+
+#: wpmdm.php:1105
+msgid "Edit Demo"
+msgstr ""
+
+#: wpmdm.php:1106
+msgid "View Demo"
+msgstr ""
+
+#: wpmdm.php:1107
+msgid "All Demos"
+msgstr ""
+
+#: wpmdm.php:1108
+msgid "Search Demos"
+msgstr ""
+
+#: wpmdm.php:1109
+msgid "Parent Demos"
+msgstr ""
+
+#: wpmdm.php:1110
+msgid "No Demos Found"
+msgstr ""
+
+#: wpmdm.php:1111
+msgid "No Demos Found In Trach"
+msgstr ""
+
+#: wpmdm.php:1137
+msgid "Build Your Demo"
+msgstr ""
+
+#: wpmdm.php:1145
+msgid "Build Demo"
+msgstr ""
+
+#: wpmdm.php:1417
+msgid "Demo Folder created for "
+msgstr ""
+
+#: wpmdm.php:1426
+msgid "Customizer file created for "
+msgstr ""
+
+#: wpmdm.php:1435
+msgid "Theme Options file created for "
+msgstr ""
+
+#: wpmdm.php:1448
+msgid "Preview Image Exported for "
+msgstr ""
+
+#: wpmdm.php:1487
+msgid "All demos are exported successfully! "
+msgstr ""
+
+#: wpmdm.php:1497
+msgid "An error was occured, export path is not defined! "
+msgstr ""
+
+#: wpmdm.php:1519
+msgid "The export file could not be generated !"
+msgstr ""
+
+#: wpmdm.php:1523 wpmdm.php:1551
+msgid "Download Demos"
+msgstr ""

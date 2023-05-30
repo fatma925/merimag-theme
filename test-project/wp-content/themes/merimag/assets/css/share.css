@@ -1,0 +1,195 @@
+/* Share CSS */
+
+.merimag-share-item-content {
+    padding: 8px;
+    background: #eee;
+    border-radius: 4px;
+    opacity: 0.9;
+    transition: opacity .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 960px) {
+    .merimag-share-item-content {
+        padding: 13px;
+    }
+
+    .merimag-inline-sharing .merimag-share-item-content span {
+        font-size: 15px;
+    }
+}
+
+.merimag-share-item-content:hover {
+    opacity: 1;
+}
+
+.merimag-share-item.more .merimag-share-item-content {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.dark-skin .merimag-share-item.more .merimag-share-item-content {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.merimag-inline-sharing.small .merimag-share-item-content {
+    padding: 10px 5px;
+}
+
+.merimag-inline-sharing.small .merimag-share-item-content.more {
+    padding: 10px 4px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item-content {
+    padding: 7px 3px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item-content.more {
+    padding: 7px 2px;
+}
+
+.merimag-inline-sharing .merimag-share-item i {
+    font-size: 18px;
+}
+
+.merimag-inline-sharing.small .merimag-share-item i {
+    font-size: 14px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item i {
+    font-size: 11px;
+}
+
+.merimag-inline-sharing .merimag-share-item-content span {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.merimag-inline-sharing.small .merimag-share-item-content span {
+    font-size: 12px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item-content span {
+    font-size: 9px;
+}
+
+.merimag-inline-sharing {
+    font-size: 0;
+    margin: -4px;
+}
+
+.merimag-inline-sharing.small {
+    margin: -3px;
+}
+
+.merimag-inline-sharing.tiny {
+    margin: -2px;
+}
+
+.merimag-inline-sharing .merimag-share-item {
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    padding: 4px;
+}
+
+.merimag-inline-sharing.justified .merimag-share-item {
+    width: 16.6666%;
+}
+
+.merimag-inline-sharing.small .merimag-share-item {
+    padding: 3px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item {
+    padding: 2px;
+}
+
+.merimag-inline-sharing .merimag-share-item {
+    width: 60px;
+}
+
+.merimag-inline-sharing.small .merimag-share-item {
+    width: 40px;
+}
+
+.merimag-inline-sharing.tiny .merimag-share-item {
+    width: 30px;
+}
+
+.merimag-inline-sharing.rounded .merimag-share-item-content {
+    padding: 0;
+}
+
+.merimag-inline-sharing.rounded .merimag-share-item-content {
+    border-radius: 50%;
+}
+
+.merimag-inline-sharing.rounded .merimag-share-item-content:before {
+    content: "";
+    padding-top: 100%;
+}
+
+.merimag-share-item-content span {
+    display: none;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .merimag-inline-sharing.justified {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-spacing: 6px;
+        margin: -6px;
+        width: calc(100% + 12px);
+    }
+
+    .merimag-inline-sharing.justified .merimag-share-item {
+        display: table-cell;
+        text-align: center;
+        padding: 0;
+    }
+
+    .merimag-inline-sharing.prio .merimag-share-item-content span {
+        display: inline-block;
+    }
+
+    .merimag-inline-sharing.prio .merimag-share-item:nth-child(-n+2) {
+        width: auto;
+    }
+
+    .merimag-inline-sharing.justified.prio .merimag-share-item:nth-child(1),
+    .merimag-inline-sharing.justified.prio .merimag-share-item:nth-child(2) {
+        width: 70%;
+    }
+
+    .merimag-inline-sharing.prio.justified .merimag-share-item:nth-child(1),
+    .merimag-inline-sharing.prio.justified .merimag-share-item:nth-child(2) {
+        width: 33.3333%;
+    }
+}
+
+.merimag-inline-sharing.prio .merimag-share-item:nth-child(n+3) .merimag-share-item-content span {
+    display: none;
+}
+
+.merimag-inline-sharing.prio .merimag-share-item:nth-child(n-3) .merimag-share-item-content {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.merimag-inline-sharing .merimag-share-item-content span {
+    margin-left: 10px;
+}
+
+body.rtl .merimag-inline-sharing .merimag-share-item-content span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
+.merimag-inline-sharing.collapsed-sharing .merimag-share-item:nth-child(n+6):not(.more) {
+    display: none;
+}

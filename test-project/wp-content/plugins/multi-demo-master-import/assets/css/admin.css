@@ -1,0 +1,129 @@
+
+/* IMPORT CSS */
+
+.wpmdm-import-demos-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px;
+}
+.wpmdm-import-demo-item {
+	width: 25%;
+	
+}
+@media only screen and ( max-width: 1400px ) {
+	.wpmdm-import-demo-item {
+		width: 33.333%;
+	}
+}
+@media only screen and ( max-width: 1000px ) {
+	.wpmdm-import-demo-item {
+		width: 50%;
+	}
+}
+@media only screen and ( max-width: 600px ) {
+	.wpmdm-import-demo-item {
+		width: 100%;
+	}
+}
+.wpmdm-import-demo-item-content {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 10px;
+
+}
+.wpmdm-import-demo-item-content h3 {
+	padding: 0 20px;
+	line-height: 60px;
+	text-align: center;
+	background: #eee;
+	margin: 0;
+	text-transform: uppercase;
+}
+.wpmdm-import-demo-item img {
+	max-width: 100%;
+}
+
+.wpmdm-demos-import {
+    width: 100%!important;
+}
+.wpmdm-import-preview {
+	position: relative;
+	max-height: 400px;
+    overflow: hidden;
+}
+.wpmdm-import-preview a {
+	position: absolute;
+	display: block;
+	background: #0085ba;
+	background: rgba(255,255,255,0.9);
+	left: 30px;
+	right: 30px;
+	line-height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	text-align: center;
+	z-index: 400;
+	box-shadow:0 0 12px rgba(0,0,0,0.2);
+	border-radius: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12pt;
+}
+.wpmdm-import-preview img {
+	display: block;
+}
+.wpmdm-import-no-preview {
+	position: relative;
+	text-align: center;
+}
+.wpmdm-import-no-preview span {
+	display: none;
+}
+.wpmdm-import-demo-item-content .wpmdm-import-button {
+	width: 100%!important;
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+}
+.wpmdm-import-demo-item-content .wpmdm-options-import-checkboxes {
+	margin: 20px 0;
+}
+.wpmdm-import-status {
+	max-height: 200px;
+	overflow-y: scroll;
+	padding: 20px;
+}
+
+.wpmdm-import-status .wpmdm-loading {
+	font-size: 30pt;
+	display: block;
+	text-align: center;
+}
+
+.wpmdm-action-status-item {
+	display: flex;
+	vertical-align: middle;
+  align-items: center;
+}
+.wpmdm-action-status span {
+	display: block;
+	width: 90%;
+}
+.wpmdm-action-status span:last-child {
+	width: 10%;
+	font-size: 20px;
+	line-height: 40px;
+}
+.wpmdm-action-status-error {
+	color: red;
+	text-align: right;
+}
+.wpmdm-action-status-success {
+	color: green;
+	text-align: right;
+}
+.wpmdm-import-types-container {
+	padding: 20px;
+	border: 1px #eee solid;
+}

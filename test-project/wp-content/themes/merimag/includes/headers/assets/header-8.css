@@ -1,0 +1,29 @@
+.merimag-header-content {
+	border-bottom: 0;
+	border-top: 0;
+}
+.merimag-main-navigation {
+	background: transparent;
+	border-top: 5px #000 solid;
+	border-bottom: 5px #000 solid;
+	box-shadow: none;
+}
+.merimag-site-navigation.medium-spacing .merimag-menu-line-height {
+	line-height: 70px;
+}
+.merimag-site-navigation.small-spacing .merimag-menu-line-height {
+	line-height: 50px;
+}
+
+.merimag-main-navigation .menu > li > a > span.menu-item-content, .merimag-main-navigation .custom-menu-item-content {
+	margin: -5px 0;
+}
+
+.merimag-site-navigation.effect-border-top .menu > li.menu-item > a span.menu-item-content::before, .merimag-site-navigation.effect-border-bottom .menu > li.menu-item > a span.menu-item-content::before {
+	height: 5px;
+	border-top-width: 5px;
+}
+.merimag-main-navigation .menu > li > .sub-menu,
+.merimag-main-navigation .menu > li > .mega-menu > .sub-menu {
+	border-top-width: 5px;
+}

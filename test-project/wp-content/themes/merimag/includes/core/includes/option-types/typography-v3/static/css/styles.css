@@ -1,0 +1,31 @@
+.fw-option-type-typography-v3 {
+	font-size: 0;
+	margin: -4px;
+}
+.fw-option-typography-v3-option {
+	width: 33.3333%;
+	box-sizing: border-box;
+	padding: 4px;
+	float: none;
+	display: inline-block;
+	font-size: 1rem;
+}
+.fw-option-typography-v3-option-family {
+	width: 66.6666%;
+}
+.fw-option-typography-v3-option-weight,
+.fw-option-typography-v3-option-size,
+.fw-option-typography-v3-option-line-height,
+.fw-option-typography-v3-option-letter-spacing {
+	width: 25%;
+}
+.fw-option-typography-v3-option select,
+.fw-option-typography-v3-option input {
+	width: 100%;
+	box-sizing: border-box;
+}
+.fw-option-typography-v3-option .sp-preview,
+.fw-option-typography-v3-option .sp-replacer  {
+	width: 100%;
+	width: calc(100% - 2px);
+}

@@ -1,0 +1,53 @@
+/* POPULAR CATEGORIES */
+
+.merimag-popular-categories-list, .merimag-popular-categories-list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.merimag-popular-categories-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    font-size: 13px;
+}
+.merimag-popular-categories-list li a {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+.merimag-popular-categories-list li .merimag-term-count {
+    padding: 4px 8px;
+    font-family: arial;
+    background: #242424;
+    color: #fff;
+}
+.merimag-tabbed-widget ul.merimag-tabs-shortcode-list li {
+    display: table-cell!important;
+    width: 33.3333%!important;
+}
+
+.merimag-tabbed-widget ul.merimag-tabs-shortcode-list li a {
+    font-size: 14px;
+    padding: 15px 10px!important;
+    text-align: center;
+}
+.merimag-tabbed-widget ul.merimag-tabs-shortcode-list li a i {
+    font-size: 26px;
+    margin-right: 5px;
+}
+body.rtl .merimag-tabbed-widget ul.merimag-tabs-shortcode-list li a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.merimag-tabbed-widget .merimag-tabs-shortcode-list {
+    display: table;
+    width: 100%;
+}
+
+
+
+
+
+

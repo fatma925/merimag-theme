@@ -1,0 +1,1009 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-10-31 18:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: framework-customizations\n"
+"X-Poedit-SearchPathExcluded-1: includes/customizer-helper.php\n"
+"X-Poedit-SearchPathExcluded-2: includes/theme-admin.php\n"
+"X-Poedit-SearchPathExcluded-3: includes/theme-update-checker.php\n"
+"X-Poedit-SearchPathExcluded-4: includes/core/includes/data.php\n"
+"X-Poedit-SearchPathExcluded-5: includes/core/includes/options.php\n"
+"X-Poedit-SearchPathExcluded-6: tgm/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-7: includes/core/includes/option-types\n"
+"X-Poedit-SearchPathExcluded-8: includes/core/includes/thumb.php\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18 functions.php:1224
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:52
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: amp/footer.php:40 functions.php:2547
+#, php-format
+msgid "%s Copyright %s, All Rights Reserved"
+msgstr ""
+
+#: amp/footer.php:45
+msgid "Back to top"
+msgstr ""
+
+#: amp/meta-taxonomy.php:28
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+#: amp/meta-time.php:22
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: assets/skins/crypto/filters.php:14 assets/skins/default-2/filters.php:15
+#: assets/skins/food/filters.php:14 assets/skins/life/filters.php:12
+#: assets/skins/news/filters.php:16 assets/skins/personal/filters.php:20
+#: assets/skins/photography/filters.php:17 assets/skins/shop/filters.php:11
+#: assets/skins/tech/filters.php:14 assets/skins/times/filters.php:14
+#: assets/skins/travel/filters.php:16 functions.php:2145
+msgid "# TRENDING"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:117
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:118
+msgid "Mobile menu"
+msgstr ""
+
+#: functions.php:119
+msgid "Secondry menu"
+msgstr ""
+
+#: functions.php:120
+msgid "Secondry menu mobile"
+msgstr ""
+
+#: functions.php:121
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:167
+msgid "Table of contents"
+msgstr ""
+
+#: functions.php:286 includes/core/includes/helpers.php:3794
+#: includes/core/includes/helpers.php:3795
+#: includes/core/includes/helpers.php:3797
+#: includes/core/includes/helpers.php:3798
+#: includes/core/includes/helpers.php:3800
+#: includes/core/includes/helpers.php:3801
+#: includes/core/includes/helpers.php:3803
+#: includes/core/includes/helpers.php:3804
+#: includes/core/includes/helpers.php:3805
+#: includes/core/includes/helpers.php:3806
+#: includes/core/includes/helpers.php:3807
+#: includes/core/includes/helpers.php:3808
+#: includes/core/includes/helpers.php:3809
+#: includes/core/includes/helpers.php:3810
+#: includes/core/includes/helpers.php:3811
+#: includes/core/includes/helpers.php:3812
+#: includes/core/includes/helpers.php:3813
+#: includes/core/includes/helpers.php:3815
+#: includes/core/includes/helpers.php:3816
+#: includes/core/includes/helpers.php:3818
+#: includes/core/includes/shortcodes.php:2165
+msgid "Follow us"
+msgstr ""
+
+#: functions.php:375
+msgid "Main sidebar"
+msgstr ""
+
+#: functions.php:377 functions.php:386 functions.php:395 functions.php:445
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:384
+msgid "Page sidebar"
+msgstr ""
+
+#: functions.php:393
+msgid "Footer widgets"
+msgstr ""
+
+#: functions.php:403
+msgid "Forums sidebar"
+msgstr ""
+
+#: functions.php:405
+msgid "BBPress forums sidebar."
+msgstr ""
+
+#: functions.php:414
+msgid "Shop sidebar"
+msgstr ""
+
+#: functions.php:416
+msgid "Sidebar for woocommerce archive template."
+msgstr ""
+
+#: functions.php:423
+msgid "Shop Off-canvas filter"
+msgstr ""
+
+#: functions.php:425
+msgid "Sidebar for woocommerce filter off-canvas sidebar."
+msgstr ""
+
+#: functions.php:434
+msgid "Video template sidebar"
+msgstr ""
+
+#: functions.php:436
+msgid "Sidebar for video templates on article pages."
+msgstr ""
+
+#: functions.php:443
+msgid "404 widgets"
+msgstr ""
+
+#: functions.php:677
+msgid "Mega menus"
+msgstr ""
+
+#: functions.php:719
+msgid "Select icon"
+msgstr ""
+
+#: functions.php:752
+msgid "Author"
+msgstr ""
+
+#: functions.php:761
+msgid "Edit"
+msgstr ""
+
+#: functions.php:766
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:842 functions.php:852 functions.php:853
+#: includes/core/includes/helpers.php:388
+msgid "Related posts"
+msgstr ""
+
+#: functions.php:876
+msgid "More from author"
+msgstr ""
+
+#: functions.php:1098
+msgid "Search for sss"
+msgstr ""
+
+#: functions.php:1188 functions.php:1191
+msgid "Shop"
+msgstr ""
+
+#: functions.php:1217
+msgid "Search Results for..."
+msgstr ""
+
+#: functions.php:1263
+msgid "Orders"
+msgstr ""
+
+#: functions.php:1267
+msgid "Downloads"
+msgstr ""
+
+#: functions.php:1271
+msgid "Addresses"
+msgstr ""
+
+#: functions.php:1275
+msgid "Account details"
+msgstr ""
+
+#: functions.php:1279
+msgid "Logout"
+msgstr ""
+
+#: functions.php:1283
+msgid "Login"
+msgstr ""
+
+#: functions.php:1287
+msgid "Lost password"
+msgstr ""
+
+#: functions.php:1439
+msgid "Latest posts"
+msgstr ""
+
+#: functions.php:1442
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr ""
+
+#: functions.php:1445
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: functions.php:1625
+msgid "Trending"
+msgstr ""
+
+#: functions.php:1732
+msgid "Posts"
+msgstr ""
+
+#: functions.php:1817
+msgid "Company"
+msgstr ""
+
+#: functions.php:1818
+msgid "Position"
+msgstr ""
+
+#: functions.php:2989
+msgid "Edit section"
+msgstr ""
+
+#: functions.php:3128
+msgid "My account"
+msgstr ""
+
+#: functions.php:3145
+msgid "Cart"
+msgstr ""
+
+#: functions.php:3156
+msgid "Search"
+msgstr ""
+
+#: functions.php:3179 functions.php:3180 functions.php:3187
+msgid "MERIMAG Theme"
+msgstr ""
+
+#: functions.php:3180
+msgid "MERIMAG"
+msgstr ""
+
+#: functions.php:3187
+msgid "Welcome"
+msgstr ""
+
+#: functions.php:3215
+msgid "Latest version installed last check on : "
+msgstr ""
+
+#: functions.php:3215
+msgid "Check for updates"
+msgstr ""
+
+#: functions.php:3221
+msgid "New version available"
+msgstr ""
+
+#: functions.php:3221
+msgid "Go to themes page"
+msgstr ""
+
+#: functions.php:3257
+msgid "0 Comment"
+msgstr ""
+
+#: functions.php:3259
+msgid "1 Comment"
+msgstr ""
+
+#: functions.php:3261
+msgid " Comments"
+msgstr ""
+
+#: functions.php:3283
+msgid "More stories"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: includes/core/core.php:116
+msgid "More"
+msgstr ""
+
+#: includes/core/core.php:117
+msgid "View more"
+msgstr ""
+
+#: includes/core/core.php:118
+msgid "Menu"
+msgstr ""
+
+#: includes/core/core.php:119
+msgid "Open / Close menu"
+msgstr ""
+
+#: includes/core/includes/blocks.php:109
+msgid "Nothing to show at the moment !"
+msgstr ""
+
+#: includes/core/includes/blocks.php:323
+msgid "Read more"
+msgstr ""
+
+#: includes/core/includes/elementor-widgets.php:31
+#: includes/core/includes/elementor-widgets.php:80
+#: includes/core/includes/elementor-widgets.php:130
+#: includes/core/includes/elementor-widgets.php:178
+#: includes/core/includes/elementor-widgets.php:226
+#: includes/core/includes/elementor-widgets.php:274
+#: includes/core/includes/elementor-widgets.php:322
+#: includes/core/includes/elementor-widgets.php:370
+#: includes/core/includes/elementor-widgets.php:418
+#: includes/core/includes/elementor-widgets.php:466
+#: includes/core/includes/elementor-widgets.php:515
+#: includes/core/includes/elementor-widgets.php:563
+#: includes/core/includes/elementor-widgets.php:611
+#: includes/core/includes/elementor-widgets.php:660
+#: includes/core/includes/elementor-widgets.php:710
+#: includes/core/includes/elementor-widgets.php:758
+#: includes/core/includes/elementor-widgets.php:806
+#: includes/core/includes/elementor-widgets.php:854
+#: includes/core/includes/elementor-widgets.php:902
+#: includes/core/includes/elementor-widgets.php:950
+#: includes/core/includes/elementor-widgets.php:998
+#: includes/core/includes/elementor-widgets.php:1046
+#: includes/core/includes/elementor-widgets.php:1094
+#: includes/core/includes/elementor-widgets.php:1143
+#: includes/core/includes/elementor-widgets.php:1191
+#: includes/core/includes/elementor-widgets.php:1239
+#: includes/core/includes/elementor-widgets.php:1287
+#: includes/core/includes/elementor-widgets.php:1335
+#: includes/core/includes/elementor-widgets.php:1383
+#: includes/core/includes/elementor-widgets.php:1431
+#: includes/core/includes/elementor-widgets.php:1479
+#: includes/core/includes/elementor-widgets.php:1527
+#: includes/core/includes/elementor-widgets.php:1575
+#: includes/core/includes/elementor-widgets.php:1623
+#: includes/core/includes/elementor-widgets.php:1671
+#: includes/core/includes/elementor-widgets.php:1723
+#: includes/core/includes/elementor-widgets.php:1775
+#: includes/core/includes/elementor-widgets.php:1823
+#: includes/core/includes/elementor-widgets.php:1871
+#: includes/core/includes/elementor-widgets.php:1919
+#: includes/core/includes/elementor-widgets.php:1967
+#: includes/core/includes/elementor-widgets.php:2015
+#: includes/core/includes/elementor-widgets.php:2063
+#: includes/core/includes/elementor-widgets.php:2111
+#: includes/core/includes/elementor-widgets.php:2159
+#: includes/core/includes/elementor-widgets.php:2207
+#: includes/core/includes/elementor-widgets.php:2255
+#: includes/core/includes/elementor-widgets.php:2303
+#: includes/core/includes/elementor-widgets.php:2351
+#: includes/core/includes/elementor-widgets.php:2399
+#: includes/core/includes/elementor-widgets.php:2447
+#: includes/core/includes/elementor-widgets.php:2496
+msgid "General"
+msgstr ""
+
+#: includes/core/includes/elementor.php:141
+#: includes/core/includes/elementor.php:195
+msgid "Normal"
+msgstr ""
+
+#: includes/core/includes/elementor.php:158
+#: includes/core/includes/elementor.php:212
+msgid "Hover"
+msgstr ""
+
+#: includes/core/includes/elementor.php:469
+msgid "Yes"
+msgstr ""
+
+#: includes/core/includes/elementor.php:470
+msgid "No"
+msgstr ""
+
+#: includes/core/includes/elementor.php:628
+msgid "Merimag"
+msgstr ""
+
+#: includes/core/includes/helpers.php:193
+msgid "Filter #1"
+msgstr ""
+
+#: includes/core/includes/helpers.php:206
+msgid "Filter #"
+msgstr ""
+
+#: includes/core/includes/helpers.php:416
+msgid "Read also"
+msgstr ""
+
+#: includes/core/includes/helpers.php:1808
+msgid "Older posts"
+msgstr ""
+
+#: includes/core/includes/helpers.php:1809
+msgid "Newer posts"
+msgstr ""
+
+#: includes/core/includes/helpers.php:1810
+msgid "Posts navigation"
+msgstr ""
+
+#: includes/core/includes/helpers.php:1991
+#: includes/core/includes/helpers.php:2005
+#, php-format
+msgid "Post #%s"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2205
+msgid "Load more"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2211
+msgid "Prev"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2215
+#: includes/core/includes/pagination.php:75
+msgid "Next"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2219
+msgid "Showing "
+msgstr ""
+
+#: includes/core/includes/helpers.php:2221
+msgid "Of "
+msgstr ""
+
+#: includes/core/includes/helpers.php:2556
+#, php-format
+msgid "%s posts"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2560
+#, php-format
+msgid "%s products"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2581
+msgid "Posted on"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2601
+#: includes/core/includes/shortcodes.php:2055
+msgid "By"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2653
+msgid "Comments"
+msgstr ""
+
+#: includes/core/includes/helpers.php:2709
+msgid "Sale!"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3066
+#: includes/core/includes/shortcodes.php:1952
+msgid "Very Bad"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3069
+#: includes/core/includes/shortcodes.php:1955
+msgid "Bad"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3072
+#: includes/core/includes/shortcodes.php:1958
+msgid "Correct"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3075
+#: includes/core/includes/shortcodes.php:1961
+msgid "Nice"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3078
+#: includes/core/includes/shortcodes.php:1964
+msgid "Awesome!"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3417
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: includes/core/includes/helpers.php:3421
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: includes/core/includes/helpers.php:3429
+#: includes/core/includes/helpers.php:3437
+#: includes/core/includes/helpers.php:3441
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: includes/core/includes/helpers.php:3453
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3485
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: includes/core/includes/helpers.php:3793 includes/share.php:6
+msgid "Facebook"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3793
+msgid "Likes"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3793
+msgid "Like our page"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3794 includes/share.php:7
+msgid "Twitter"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3794
+#: includes/core/includes/helpers.php:3795
+#: includes/core/includes/helpers.php:3797
+#: includes/core/includes/helpers.php:3800
+#: includes/core/includes/helpers.php:3801
+#: includes/core/includes/helpers.php:3803
+#: includes/core/includes/helpers.php:3804
+#: includes/core/includes/helpers.php:3806
+#: includes/core/includes/helpers.php:3808
+#: includes/core/includes/helpers.php:3809
+#: includes/core/includes/helpers.php:3810
+#: includes/core/includes/helpers.php:3811
+#: includes/core/includes/helpers.php:3812
+#: includes/core/includes/helpers.php:3813
+#: includes/core/includes/helpers.php:3815
+#: includes/core/includes/helpers.php:3816
+msgid "Followers"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3795
+msgid "Google plus"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3796 includes/share.php:9
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3796
+#: includes/core/includes/helpers.php:3799
+#: includes/core/includes/helpers.php:3802
+#: includes/core/includes/helpers.php:3817
+msgid "Subscribers"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3796
+msgid "Let's connect"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3797 includes/share.php:8
+msgid "Pinterest"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3798
+msgid "Foursquare"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3798
+msgid "Friends"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3799
+msgid "Youtube"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3799
+#: includes/core/includes/helpers.php:3802
+#: includes/core/includes/helpers.php:3817
+msgid "Subscribe to our channel"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3800
+msgid "Instagram"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3801
+msgid "Flickr"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3802
+msgid "Vimeo"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3803 includes/share.php:11
+msgid "Tumblr"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3804
+msgid "Stumbleupon"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3805 includes/share.php:13
+msgid "VK"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3805
+#: includes/core/includes/helpers.php:3807
+msgid "Members"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3806
+msgid "500px"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3807
+msgid "Steam"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3808
+msgid "Goodreads"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3809
+msgid "Mixcloud"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3810
+msgid "Twitch"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3811
+msgid "Dribbble"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3812
+msgid "Delicious"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3813
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3814
+msgid "Github"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3814
+msgid "View our code"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3815
+msgid "Quora"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3816
+msgid "Behance"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3817
+msgid "Vine"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3818 includes/share.php:10
+msgid "Reddit"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3819
+msgid "RSS"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3819
+msgid "Subscribe"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3819
+msgid "Subscribe now"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3820
+msgid "Website"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3820
+msgid "Visit our website "
+msgstr ""
+
+#: includes/core/includes/helpers.php:3857
+msgid "Default"
+msgstr ""
+
+#: includes/core/includes/helpers.php:3920
+msgid "Buy Now"
+msgstr ""
+
+#: includes/core/includes/pagination.php:74
+msgid "Previous"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:407
+#: includes/core/includes/shortcodes.php:2242
+msgid "Tab "
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:620
+msgid "Click me"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:1275
+msgid "Image"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:1392
+msgid "Author name"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:1434
+msgid "View posts by"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:1489
+#, php-format
+msgid "Menu item #%s"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2008
+#, php-format
+msgid "Cretiria %s"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2049
+msgid "Rating"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2051
+msgid "out of"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2052
+msgid "Stars"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2057
+msgid "Written on"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2420
+msgid "Video playlist"
+msgstr ""
+
+#: includes/core/includes/shortcodes.php:2455
+msgid "Video"
+msgstr ""
+
+#: includes/headers/components/ticker.php:1
+msgid "Trending news"
+msgstr ""
+
+#: includes/share.php:6 includes/share.php:9 includes/share.php:11
+#: includes/share.php:12 includes/share.php:13 includes/share.php:53
+msgid "Share"
+msgstr ""
+
+#: includes/share.php:7
+msgid "Tweet"
+msgstr ""
+
+#: includes/share.php:8
+msgid "Pin"
+msgstr ""
+
+#: includes/share.php:10 woocommerce/single-product-reviews.php:77
+msgid "Submit"
+msgstr ""
+
+#: includes/share.php:12
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/share.php:14 woocommerce/single-product-reviews.php:90
+msgid "Email"
+msgstr ""
+
+#: includes/woocommerce.php:30
+msgid "out of 5"
+msgstr ""
+
+#: includes/woocommerce.php:304
+msgid "View cart"
+msgstr ""
+
+#: includes/woocommerce.php:307
+msgid "Checkout"
+msgstr ""
+
+#: includes/woocommerce.php:404
+msgid "Cart details"
+msgstr ""
+
+#: includes/woocommerce.php:415
+msgid "Filter"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post?."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page-builder.php:22 template-parts/content.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:22
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart.php:55
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:172
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid "You must be"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid "logged in"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:112
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Rate"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:114
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:117
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:118
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:121
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/related.php:26
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:28
+msgid "You may also like"
+msgstr ""

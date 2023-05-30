@@ -1,0 +1,1627 @@
+
+/* Header CSS */
+
+ .merimag-header-main {
+	font-size: .8em;
+}
+/* MOBILE SIDEBAR */
+.merimag-sidebar  {
+	background: #fff;
+	z-index: 999999;
+	display: none;
+	max-width: 80vw;
+}
+.merimag-cart-sidebar-container {
+	padding: 30px;
+}
+.merimag-sidebar-content > .merimag-mobile-menu-social {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid;
+}
+
+
+.merimag-sidebar-close {
+	font-size: 2em;
+}
+.merimag-sidebar-close, .merimag-sidebar-opener {
+	cursor: pointer;
+}
+
+.merimag-mobile-sidebar-content .merimag-mobile-menu-search {
+	border-bottom: 1px solid;
+	padding: 10px 22px;
+}
+@media only screen and ( min-width: 480px ) {
+
+	
+	.merimag-mobile-sidebar-content .merimag-mobile-menu-search {
+		padding: 20px 30px;
+	}
+}
+
+.merimag-mobile-sidebar-content .horizontal-menu .menu-item-content {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	opacity: 0.6;
+}
+.merimag-mobile-sidebar-content {
+	padding-bottom: 40px;
+}
+.merimag-mobile-menu-sidebar .flex-menu .menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	font-size: 14px;
+	margin: -5px;
+}
+.merimag-mobile-menu-sidebar .flex-menu .menu li {
+	margin: 5px;
+}
+.merimag-mobile-menu-sidebar .flex-menu .menu ul {
+	display: none;
+}
+.mCSB_inside>.mCSB_container {
+	margin-right: 0!important; 
+}
+.mCS-dir-rtl>.mCSB_inside>.mCSB_container {
+	margin-left: 0!important;
+}
+
+.merimag-mobile-menu-social {
+	padding: 0 22px;
+	margin-top: 30px;
+}
+.merimag-mobile-sidebar-menu {
+ 	font-size: 17px;
+ 	padding: 0 22px;
+ 	margin-top: 20px;
+    font-weight: bold;
+ }
+ .merimag-mobile-sidebar-menu.flex-menu > div > .menu {
+ 	padding: 20px;
+ 	font-size: 12px;
+ 	background: rgba(0,0,0,0.1);
+ }
+
+ .merimag-mobile-menu-sidebar-header {
+ 	padding: 0 22px;
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	line-height: 40px;
+ 	background: rgba(0,0,0,0.1);
+ 	margin-bottom: 30px;
+ }
+@media only screen and ( min-width: 480px ) {
+	.merimag-mobile-menu-social {
+		padding: 0 30px;
+	}
+	.merimag-mobile-menu-sidebar-header {
+	 	padding: 0 30px;
+	 }
+	.merimag-mobile-sidebar-menu {
+		padding: 0 30px;
+	}
+
+}
+.merimag-mobile-sidebar-content .merimag-site-branding {
+	max-width: 80%;
+	padding: 0 20px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.merimag-mobile-menu-sidebar.reveal  {
+	display: block;
+}
+
+
+.horizontal-menu ul, .horizontal-menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.horizontal-menu .menu-item-icon {
+	    margin-right: 10px;
+    line-height: 1;
+    min-width: 24px;
+    text-align: center;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+}
+.horizontal-menu .menu-item-icon.merimag-default-icon:before {
+	opacity: .2;
+}
+.horizontal-menu .menu-item-content {
+	padding: 1em 0;
+	border-bottom: 1px solid;
+	position: relative;
+}
+.horizontal-menu .menu > li > .sub-menu {
+	border-bottom: 1px solid;
+	font-size: 0.8em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.horizontal-menu .sub-menu .menu-item-content {
+	border-bottom: none;
+}
+.horizontal-menu .sub-menu, .horizontal-menu .mega-menu {
+	padding-left: 20px;
+	background: transparent!important;
+	display: none;
+}
+.horizontal-menu .menu-item-has-icon > .sub-menu {
+	padding-left: 34px;
+}
+body.rtl .horizontal-menu .sub-menu, body.rtl .horizontal-menu .mega-menu {
+	padding-left: 0;
+	padding-right: 20px;
+}
+body.rtl .horizontal-menu .menu-item-has-icon > .sub-menu {
+	padding-left: 0;
+	padding-right: 34px;
+}
+.horizontal-menu .mega-menu > .sub-menu {
+	padding: 0;
+}
+
+.merimag-site-header-container {
+	display: none;
+}
+.merimag-sticky-header-container {
+	display: none;
+}
+.merimag-date-time {
+	line-height: 30px;
+	padding: .5em 0;
+	white-space: nowrap;
+}
+.merimag-header-main.merimag-header-main-sticky {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+@media only screen and ( min-width: 960px ) {
+	.merimag-site-header-container {
+		display: block;
+	}
+	.merimag-header-main.merimag-header-main-sticky {
+		position: relative;
+		top: auto;
+		z-index: auto;
+	}
+	.merimag-mobile-header-container {
+		display: none;
+	}
+	.merimag-sticky-header-container {
+		display: block;
+	}
+	.merimag-top-navigation {
+	    padding-top: 0;
+	    padding-bottom: 0;
+	}
+}
+.merimag-mobile-header-container {
+	border-top: 3px solid;
+}
+
+.merimag-mobile-header.fixed-mobile-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	right: 0;
+	display: none;
+}
+.merimag-top-navigation {
+	overflow: hidden;
+}
+.merimag-top-navigation .merimag-navigation-content.merimag-spaced-flex {
+}
+.merimag-site-header-container.bordered-header {
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+}
+.merimag-site-header-container.bordered-header .merimag-main-navigation .vertical-menu .sub-menu, .merimag-site-header-container.bordered-header .merimag-main-navigation .vertical-menu .mega-menu {
+	border-top-width: 3px;
+}
+/* MENUS */
+.menu, .menu-item {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menu-item a {
+	font-weight: inherit;
+}
+.vertical-menu .menu {
+	display: flex;
+	align-items: center;
+}
+.merimag-simple-menu .menu {
+	display: block;
+}
+.vertical-menu .sub-menu, .vertical-menu .mega-menu {
+	position: absolute;
+	left: 0;
+	display: none;
+	min-width: 200px;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	border-top: 3px solid;
+	pointer-events: none;
+	line-height: 1.4em;
+	opacity: 0;
+	margin-top: -20px;
+	transition: margin-top .2s ease;
+	z-index: -1;
+	box-shadow: 0 7px 10px rgba(0,0,0,.20);
+}
+.vertical-menu .mega-menu.mega-menu-padding {
+	padding: 30px;
+}
+.merimag-simple-menu .sub-menu, .merimag-simple-menu .mega-menu {
+	position: relative;
+	left: 0;
+	visibility: visible;
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+	min-width: auto;
+	border-top: none;
+	pointer-events: none;
+	line-height: 1.4em;
+	opacity: 1;
+	margin-top: 0;
+	transition: margin-top .2s ease;
+	z-index: inherit;
+	box-shadow: none;
+}
+body.rtl .vertical-menu .sub-menu:not(.mega-menu) {
+	left: auto;
+	right: 0;
+}
+body.rtl .merimag-simple-menu .sub-menu {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+}
+body.rtl .merimag-simple-menu .sub-menu, .rtl .merimag-simple-menu .mega-menu {
+	left: auto;
+	right: auto;
+	margin-left: 0;
+	margin-right: 0;
+} 
+.vertical-menu .sub-menu .sub-menu{
+	left: 100%;
+	top: -3px;
+}
+body.rtl .vertical-menu .sub-menu .sub-menu {
+	left: auto;
+	right: 100%;
+}
+.merimag-simple-menu .sub-menu .sub-menu  {
+	left: auto;
+	top: auto;
+}
+.rtl .vertical-menu .sub-menu .sub-menu {
+	right: 100%;
+	left: auto;
+}
+.vertical-menu .mega-menu-row, .vertical-menu .mega-menu-row li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.vertical-menu .mega-menu-row {
+	display: flex;
+	padding: 15px;
+	flex-wrap: wrap;
+}
+.vertical-menu .mega-menu-row > .menu-item {
+	width: 25%;
+	flex: 0 0 25%;
+	padding: 10px;
+	margin: 0;
+}
+.vertical-menu .mega-menu-row-3 > .menu-item {
+	width: 33.3333%;
+	flex: 0 0 33.3333%;	
+}
+.vertical-menu .mega-menu-row-4 > .menu-item {
+	width: 25%;
+	flex: 0 0 25%;	
+}
+.vertical-menu .mega-menu-row-5 > .menu-item {
+	width: 20%;
+	flex: 0 0 20%;	
+}
+.vertical-menu .mega-menu-row-6 > .menu-item {
+	width: 16.6666%;
+	flex: 0 0 16.6666%;	
+}
+.vertical-menu .mega-menu-row .sub-menu .menu-item > a {
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+}
+.vertical-menu .mega-menu-row .sub-menu .menu-item > a[class*="principal-color-background"] {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.vertical-menu .mega-menu-row .menu-item.menu-item-has-children > a > .menu-item-content:after {
+	content: "";
+}
+.vertical-menu .menu .mega-menu-row > .menu-item > a {
+	font-size: 1.2em;
+	padding: 0;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	border-bottom: 1px solid;
+	position: relative;
+}
+body.site-body .menu-item-has-mega-menu > .mega-menu.sub-menu {
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.vertical-menu .menu .mega-menu-row > .menu-item > a[class*="principal-color-background"] {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.vertical-menu .menu .mega-menu-row > .menu-item > a:after {
+	content: "";
+	border-bottom: 2px solid;
+	width: 20%;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+}
+body.rtl .vertical-menu .menu .mega-menu-row > .menu-item > a:after {
+	right: 0;
+	left: auto;
+}
+.vertical-menu .menu .mega-menu-row > .menu-item > a[class*="principal-color-background"]:after {
+	left: 10px;
+}
+.vertical-menu .mega-menu-row > .menu-item .sub-menu {
+	display: block;
+	position: relative;
+	visibility: visible;
+	margin: 0;
+	left: auto;
+	right: auto;
+	border:none;
+	opacity: 1;
+	box-shadow: none;
+	
+}
+.vertical-menu .mega-menu-row > .menu-item > .sub-menu {
+	background: transparent!important;
+	left: auto!important;
+	right: auto!important;
+}
+
+.vertical-menu .mega-menu-row > .menu-item .sub-menu .sub-menu {
+	display: none;
+	position: absolute;
+	width: 200px;
+	padding: 20px;
+	left: 100%;
+}
+
+.vertical-menu .mega-menu-row > .menu-item .sub-menu > li:hover > .sub-menu {
+	display: block;
+}
+.merimag-simple-menu .sub-menu {
+	right: auto!important;
+	left: auto!important;
+	top: auto!important;
+}
+.vertical-menu .menu-item {
+	position: relative;
+}
+.vertical-menu .menu-item.menu-item-has-mega-menu {
+	position: static;
+}
+.merimag-navigation-content {
+	position: relative;
+}
+
+.vertical-menu .mega-menu.sub-menu {
+	left: 30px;
+	right: 30px;
+	width: auto;
+}
+.boxed-menu .vertical-menu .mega-menu.sub-menu,
+.merimag-boxed-header .vertical-menu .mega-menu.sub-menu {
+	left: 0;
+	right: 0;
+}
+.merimag-boxed-header .vertical-menu .mega-menu.sub-menu {
+	left: -30px;
+	right: -30px;
+	width: calc(100% + 60px);
+	max-width: calc(100% + 60px);
+}
+.merimag-boxed-header {
+	margin-top: 10px!important;
+}
+.vertical-menu .menu-item:not(.click-event):not(.merimag-enter):hover > .sub-menu, .vertical-menu .menu-item:not(.click-event):not(.merimag-enter):hover > .mega-menu {
+	visibility: visible;
+	display: block;
+	opacity: 1;
+	pointer-events: initial;
+	margin-top: 0;
+	z-index: 38;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.vertical-menu .merimag-enter > .sub-menu, .vertical-menu .merimag-enter > .mega-menu {
+	visibility: visible;
+	display: block;
+	opacity: 1;
+	pointer-events: initial;
+	margin-top: 0;
+	z-index: 44;
+	margin-left: 0;
+	margin-right: 0;
+}
+.vertical-menu .right-side-sub-menu > .sub-menu{
+	right: 0!important;
+	left: auto!important;
+}
+.vertical-menu .left-side-sub-menu > .sub-menu {
+	left: 0!important;
+	right: auto!important;
+}
+.vertical-menu .sub-menu .right-side-sub-menu > .sub-menu{
+	right: 100%!important;
+	left: auto!important;
+}
+.vertical-menu .sub-menu .left-side-sub-menu > .sub-menu{
+	left: 100%!important;
+	right: auto!important;
+}
+.vertical-menu .mobile-sub-menu > .sub-menu {
+	left: 0!important;
+	right: 0!important;
+}
+.vertical-menu .sub-menu .mobile-sub-menu > .sub-menu{
+	left: 0!important;
+	right: 0!important;
+	top: 100%!important;
+}
+
+/* NAVIAGTION */
+
+.vertical-menu .menu .menu-item > a {
+	display: block;
+	padding: 0 1em;
+	position: relative;
+}
+.vertical-menu .menu-item  > .merimag-header-icon {
+	padding: 0;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.merimag-mobile-header .vertical-menu .menu-item  > .merimag-header-icon {
+	height: 70px;
+}
+.vertical-menu .menu > .menu-item > a {
+	padding: 0 1.5em;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+.boxed-menu .vertical-menu .menu > .menu-item > a {
+	padding: 0 1.5em;	
+}
+.merimag-menu-header .menu > .menu-item > a {
+	height: 80px;
+}
+.merimag-menu-header .menu-item > .merimag-header-icon {
+	height: 80px;
+}
+.merimag-menu-header.merimag-sticky-header .menu > .menu-item > a {
+	height: 60px;
+}
+.merimag-menu-header.merimag-sticky-header .menu-item > .merimag-header-icon {
+	height: 60px;
+}
+.merimag-top-navigation .vertical-menu .menu > .menu-item > a {
+	padding: 0 .5em;
+	height: 40px;
+}
+
+.vertical-menu .sub-menu .menu-item > a {
+	padding: 1em 1.2em;
+}
+.merimag-simple-menu .sub-menu .menu-item > a, .merimag-simple-menu .menu-item > a {
+	padding: 1em 0!important;
+	height: auto!important;
+}
+.merimag-simple-menu .menu > .menu-item > a > .menu-item-content:before {
+	display: none;
+}
+.merimag-simple-menu .menu > .menu-item > a > .menu-item-content:after {
+	display: none;
+}
+.menu-item-content {
+	display: flex;
+	align-items: center;
+	line-height: 1;
+}
+.menu-item-content > .menu-item-title {
+	flex-grow: 1;
+}
+.vertical-menu .menu-item.menu-item-has-children > a > .menu-item-content:after,
+.vertical-menu .menu-item.menu-item-has-mega-menu > a > .menu-item-content:after {
+	content: "\f107";
+	font-family: fontAwesome;
+	margin-left: .5em;
+}
+.horizontal-menu .menu-item.menu-item-has-children > a > .menu-item-content:after {
+	content: "\eab8";
+    font-family: icofont;
+	margin-left: .5em;
+}
+body.rtl .horizontal-menu .menu-item.menu-item-has-children > a > .menu-item-content:after {
+	content: '\eab5';
+}
+.horizontal-menu .menu-item.menu-item-has-children.sub-menu-opened > a > .menu-item-content:after {
+	    content: "\eab2"!important;
+}
+body.rtl .menu-item.menu-item-has-children > a > .menu-item-content:after,
+body.rtl .menu-item.menu-item-has-mega-menu > a > .menu-item-content:after {
+	margin-right: .5em;
+	margin-left: 0;
+}
+.menu-item-icon {
+	margin-right: .5em;
+	line-height: 1;
+	font-size: 1.2em;
+	width: auto;
+	height: auto;
+}
+
+body.rtl .menu-item-icon {
+	margin-right: 0;
+	margin-left: .5em;
+}
+.merimag-menu-social a {
+	margin-right: 1em;
+}
+.merimag-menu-social a:last-child {
+	margin-right: 0;
+}
+body.rtl .merimag-menu-social a {
+	margin-right: 0;
+	margin-left: 1em;
+}
+body.rtl .merimag-menu-social a:first-child {
+	margin-left: 0;
+}
+
+/* SITE LOGO */
+
+.site-logo {
+	margin: 0;
+	padding: 0;
+}
+.site-logo img {
+	display: block;
+}
+
+/* HEADER ICONS */
+.icon-navigation-menu:before {
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+.merimag-stacked-icon .icon-navigation-menu:before {
+	font-size: 1em;
+}
+.merimag-header-icon i {
+	font-size: 1.8em;
+	position: relative;
+}
+.merimag-menu-social-button.merimag-header-icon i {
+	font-size: 1.2em;
+} 
+.merimag-header-content-ad {
+	margin: 20px 0;
+	max-width: 768px;
+}
+
+.merimag-cart-count {
+	position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: monospace;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    line-height: 1;
+    font-style: normal;
+}
+.merimag-cart-icon.merimag-stacked-icon:hover {
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.merimag-stacked-icon .merimag-cart-count {
+	top: -8px;
+}
+.menu-item .merimag-stacked-icon {
+	width: 35px;
+	height: 35px;
+	font-size: 17px;
+}
+F
+.menu-item .merimag-stacked-icon i.fa {
+	font-size: .9em;
+}
+
+@media only screen and ( max-width: 480px ) {
+	.menu-item .merimag-stacked-icon {
+		width: 26px;
+		height: 26px;
+		font-size: 13px;
+	}
+	.merimag-cart-count {
+		width: 14px;
+		height: 14px;
+		font-size: 10px;
+		
+	}
+}
+@media only screen and ( max-width: 320px ) {
+	.menu-item .merimag-stacked-icon {
+		width: 22px;
+		height: 22px;
+		font-size: 10px;
+	}
+	.merimag-cart-count {
+		width: 12px;
+		height: 12px;
+		font-size: 8px;
+		
+	}
+	.merimag-stacked-icon .merimag-cart-count {
+		top: -5px;
+	}
+}
+.merimag-search-bar {
+	background: rgba(0,0,0,0.06);
+	padding-top: 14px;
+	padding-bottom: 14px;
+	display: none;
+}
+@media only screen and ( max-width: 480px ) {
+	.merimag-search-bar {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+}
+
+/* HEADER CART */
+
+.merimag-header-cart-content .merimag-sidebar-content,
+.merimag-shop-sidebar .merimag-sidebar-content {
+	padding: 15px;
+}
+@media only screen and ( min-width: 480px ) {
+	.merimag-header-cart-content .merimag-sidebar-content,
+	.merimag-shop-sidebar .merimag-sidebar-content {
+		padding: 30px;
+	}
+}
+.merimag-header-cart-content.sub-menu {
+	padding: 20px;
+	width: 300px;
+	font-size: 12px;
+}
+.merimag-header-search-content.sub-menu {
+	padding: 20px;
+	width: 300px;
+	font-size: 12px;
+}
+
+/* EFFECTS */
+
+.effect-border-top .menu > .menu-item > a > .menu-item-content:before,
+.effect-border-bottom .menu > .menu-item > a > .menu-item-content:before,
+.effect-background-close-border-top .menu > .menu-item > a > .menu-item-content:before {
+	content: "";
+	border-top: .23em solid;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0px;
+	transition: width .4s ease;
+
+}
+.effect-border-bottom .menu > .menu-item > a > .menu-item-content:before {
+	bottom: 0;
+	top: auto;
+}
+.effect-background-close-border-top .menu > .menu-item > a > .menu-item-content:before {
+	top: 20%;
+    border-top: 2px solid;
+}
+.effect-border-top .menu > .menu-item.active-menu-item > a >  .menu-item-content:before,
+.effect-border-bottom .menu > .menu-item.active-menu-item > a >  .menu-item-content:before {
+	width: 100%;
+}
+.effect-background-close-border-top .menu > .menu-item.active-menu-item > a >  .menu-item-content:before,
+.effect-background-close-border-top .menu > .menu-item > a:hover >  .menu-item-content:before {
+	width: 20%;
+    left: 50%;
+    margin-left: -10%;
+}
+.effect-border-top .menu > .menu-item > a:hover >  .menu-item-content:before,
+.effect-border-bottom .menu > .menu-item > a:hover >  .menu-item-content:before {
+	width: 100%;
+}
+.effect-background-radius .menu > .menu-item > a {
+	margin: 5px;
+	border-radius: 10px;
+}
+.merimag-menu-header .effect-background-radius .menu > .menu-item > a {
+	height: 40px;
+	margin: 20px 5px;
+}
+
+.effect-background-radius .vertical-menu .menu > .menu-item > a {
+		height: 50px;
+}
+/* HEADER CONTENT */
+.merimag-site-header {
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.3);
+}
+.no-shadow .merimag-site-header {
+	box-shadow: none;
+}
+.merimag-header-content-part {
+	position: relative;
+}
+.merimag-site-branding {
+	line-height: 1;
+	display: flex;
+	align-items: center;
+}
+.merimag-site-branding.text-branding {
+	display: block!important;
+}
+.merimag-menu-header .merimag-site-branding {
+	max-height: 80px;
+}
+
+.merimag-block-logo-menu .merimag-site-branding  {
+	max-height: 120px;
+}
+
+.site-description {
+	margin-top: .5em;
+}
+.merimag-header-content .merimag-site-branding {
+	padding: 30px 0;
+}
+.merimag-header-content.header-spacing-small .merimag-site-branding {
+	padding: 10px 0;
+}
+.merimag-header-content.header-spacing-big .merimag-site-branding {
+	padding: 40px 0;
+}
+.merimag-mobile-header .merimag-header-content .merimag-site-branding {
+	padding: 15px 0;
+	flex-grow: 1;
+	margin-right: 3em;
+}
+body.rtl .merimag-mobile-header .merimag-header-content .merimag-site-branding {
+	margin-left: 3em;
+	margin-right: 1.5em; 
+}
+.merimag-menu-header .merimag-header-content .merimag-site-branding {
+	padding: 0;
+}
+.merimag-menu-header .merimag-header-content .merimag-site-branding img {
+	max-height: 52px;
+}
+.merimag-menu-header.merimag-sticky-header .merimag-header-content  .merimag-site-branding img {
+	max-height: 30px;
+}
+@media only screen and ( max-width: 320px ) {
+	.merimag-mobile-header .merimag-header-content .merimag-site-branding {
+		padding: 10px 0;
+	}	
+}
+.merimag-spaced-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.merimag-spaced-flex.no-space-between {
+	justify-content: normal;
+	flex-wrap: nowrap;
+}
+.merimag-mobile-header-content:not(.stacked-icons).merimag-spaced-flex {
+	align-items: initial;
+}
+.merimag-mobile-header-content:not(.stacked-icons).merimag-spaced-flex > * {
+	display: flex;
+	align-items: center;
+}
+.merimag-spaced-flex > *{
+	margin-right: 1.5em;
+}
+.merimag-spaced-flex-small  > * {
+	margin-right: 1em;
+}
+body.rtl .merimag-spaced-flex-small  > * {
+	margin-right: 0;
+	margin-left: 1em;
+}
+body.rtl .merimag-spaced-flex > * {
+	margin-right: 0;
+	margin-left: 1.5em;
+}
+body.rtl .merimag-spaced-flex > *:last-child  {
+	margin-left: 0;
+}
+
+
+.merimag-spaced-flex > *:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+.merimag-header-tools {
+	display: flex;
+	align-items: center;
+}
+.merimag-header-tools:not(.merimag-header-tools-stacked-icons) .menu-item {
+	padding: 0 .8em!important;
+}
+.merimag-header-tools .merimag-menu-social  {
+	padding-right: 1.5em;
+	border-right: 1px solid;
+}
+body.rtl .merimag-header-tools .merimag-menu-social {
+	padding-left: 1.5em;
+	padding-right: 0;
+	border-right: none;
+	border-left: 1px solid;
+}
+.merimag-spaced-flex-smal.merimag-header-tools .merimag-menu-social {
+	padding-right: 1em;
+}
+body.rtl .merimag-spaced-flex-smal.merimag-header-tools .merimag-menu-social {
+	padding-right: 0;
+	padding-left: 1em;
+}
+
+.merimag-header-tools > .merimag-menu-social:last-child, body.rtl .merimag-header-tools > .merimag-menu-social:last-child {
+	padding-right: 0;
+	padding-left: 0;
+	border-right: none;
+	border-left: none;
+}
+.merimag-header-search {
+	width: 400px;
+	max-width: 50%;
+}
+.merimag-menu-header .merimag-header-search {
+	max-width: 20%;
+}
+.merimag-header-search .merimag-search-form  {
+	position: relative;
+}
+body.site-body .merimag-header-search .merimag-search-form .merimag-search-submit {
+	right: 0;
+	position: absolute;
+	background-image: none;
+	background-color: transparent!important;
+    background: transparent;
+    color: inherit!important;
+    padding: 0 10px;
+}
+body.site-body.rtl .merimag-header-search .merimag-search-form .merimag-search-submit {
+	right: auto;
+	left: 0;
+}
+
+
+/* TOP MENU */
+.merimag-top-menu-text > * {
+	margin: 0;
+	padding: 0;
+}
+
+/* STICKY HEADER */
+.merimag-sticky-header {
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+.merimag-sticky-header .text-branding .site-title, .merimag-sticky-header .text-branding .site-title a {
+	font-size: 40px!important;
+	line-height: 1!important;
+}
+.merimag-sticky-header .text-branding .site-description {
+	font-size: .8rem!important;
+	display: none;
+}
+.merimag-mobile-header .text-branding .site-title, .merimag-mobile-header .text-branding .site-title a {
+	font-size: 2rem!important;
+	line-height: 1!important;
+}
+.merimag-mobile-header .text-branding .site-description {
+	font-size: .6rem!important;
+}
+.merimag-mobile-header .site-logo img {
+	max-height: 60px;
+}
+.merimag-mobile-header.fixed-mobile-header .text-branding .site-description {
+	display: none;
+}
+/* MAIN NAVIGATION */
+
+.merimag-main-navigation-background {
+	box-shadow: inset 1px 2px 4px 0px rgba(0,0,0,.1);
+}
+
+.no-shadow .merimag-main-navigation-background {
+	box-shadow: none;
+}
+
+/* CENTERED HEADER */
+.merimag-centered-header .merimag-site-branding {
+	text-align: center;
+	flex-grow: 1;
+}
+.merimag-centered-header .merimag-site-branding .site-logo {
+	width: 100%;
+	text-align: center;
+}
+.merimag-centered-header .merimag-site-branding .site-logo img {
+	display: block;
+	margin: 0 auto;
+}
+.merimag-centered-menu .merimag-main-navigation .merimag-navigation-inner {
+	justify-content: center;
+}
+/* ALL MENUS */
+.merimag-all-menus-main-menu, .merimag-all-menus-top-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.merimag-block-logo-header {
+	padding-top: 10px;
+}
+.merimag-block-logo-header .merimag-main-navigation-background {
+	box-shadow: none;
+}
+.merimag-block-logo {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	flex:0 0 25%;
+	justify-content: center;
+	margin-right: 4px;
+}
+body.rtl .merimag-block-logo {
+	margin-right: 0;
+	margin-left: 4px;
+}
+.merimag-block-logo-container .merimag-main-ticker {
+	padding: 0;
+	padding-right: 10px;
+	margin-bottom: 4px;
+	line-height: 30px;
+}
+body.rtl .merimag-block-logo-container .merimag-main-ticker {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.merimag-block-logo-top-nav .merimag-navigation-content {
+	padding: 0 15px!important;
+}
+.merimag-block-logo-top-nav {
+	margin-bottom: 4px!important;
+}
+.merimag-block-logo-top-nav .merimag-full-section-content {
+	padding: 0 20px;
+}
+.boxed-main-ticker .merimag-main-ticker {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media only screen and ( min-width: 960px ) {
+	.boxed-main-ticker .merimag-main-ticker {
+		padding-left:13px;
+		padding-right: 13px;
+	}
+}
+.merimag-block-logo-container {
+	display: flex;
+}
+.merimag-block-logo-menu {
+	max-width: calc(75% - 4px );
+	flex: 0 0 75%;
+}
+.merimag-header-content .merimag-block-logo .merimag-site-branding {
+	padding: 0;
+}
+.merimag-header-content .merimag-block-logo .merimag-site-branding  img {
+	max-height: 90px!important;
+}
+/* TRANSPARENT HEADER */
+.merimag-header-main {
+	
+}
+.merimag-absolute-header .merimag-site-header {
+	position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+.elementor-html .merimag-absolute-header {
+	z-index: 1;
+}
+
+.merimag-transparent-header .merimag-site-header {
+	background: transparent!important;
+}
+.bordered-menu.merimag-navigation-inner {
+	border-bottom: 3px solid;
+	border-top: 1px solid;
+}
+
+.merimag-all-menus {
+	margin-left: 1.5em;
+	min-width: 65%;
+}
+body.rtl .merimag-all-menus {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+.merimag-all-menus .merimag-top-navigation > .merimag-full-section-content {
+	padding: 0 1em;
+}
+.merimag-all-menus-header .merimag-header-content .merimag-site-branding {
+	max-width: 35%;
+    text-align: center;
+}
+.merimag-all-menus-header .merimag-header-content .merimag-site-branding img {
+	max-height: 90px;
+}
+.merimag-all-menus-header .merimag-header-content .merimag-site-branding.logo-branding {
+	padding: 0!important;
+}
+
+ /* GENERAL CSS */
+
+ html {
+ 	margin-top: 0!important;
+ 	font-size: 16px;
+ 	box-sizing: border-box;
+ }
+ body {
+ 	line-height: 1.3;
+ 	margin: 0;
+ 	font-size: 100%;
+ 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Open Sans", Arial, sans-serif;
+ }
+@media only screen and ( max-width: 480px ) {
+	html {
+		font-size: 13px;
+	}
+}
+@media only screen and ( max-width: 320px ) {
+	html {
+		font-size: 11px;
+	}
+}
+
+ .merimag-news-ticker-container { 
+ 	overflow: hidden;
+ }
+ /* Titles */
+h1, .h1-title {
+	font-size: 2.1em;
+	font-size: 32px;
+}
+h2, .h2-title {
+	font-size: 1.8em;
+	font-size: 26px;
+}
+h3, .h3-title {
+	font-size: 1.6em;
+	font-size: 22px;
+}
+h4, .h4-title {
+	font-size: 1.4em;
+	font-size: 18px;
+}
+h5, .h5-title {
+	font-size: 1.2em;
+	font-size: 16px;
+}
+h6, .h6-title {
+	font-size: 1.1em;
+	font-size: 13px;
+}
+@media only screen and ( min-width: 800px ) {
+ 	h1, .h1-title {
+		font-size: 2.1em;
+		font-size: 44px;
+	}
+	h2, .h2-title {
+		font-size: 1.8em;
+		font-size: 36px;
+	}
+	h3, .h3-title {
+		font-size: 1.6em;
+		font-size: 30px;
+	}
+	h4, .h4-title {
+		font-size: 1.4em;
+		font-size: 26px;
+	}
+	h5, .h5-title {
+		font-size: 1.2em;
+		font-size: 22px;
+	}
+	h6, .h6-title {
+		font-size: 1.1em;
+		font-size: 18px;
+	}
+ }
+
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p {
+	font-size: 1.2em;
+}
+
+.article-content {
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+ .merimag-scroll-bar::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.merimag-scroll-bar::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.merimag-scroll-bar::-webkit-scrollbar-thumb {
+	background-color: #000000;
+}
+/* LINKS */
+
+a, a:active, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+
+ a, h1, h2, h3, h4, h5, h6 {
+ 	font-weight: 500;
+ }
+.site-content-width, body.site-body .elementor-section.elementor-section-boxed > .elementor-container {
+	width: 1200px;
+	margin: 0 auto;
+	max-width: 100%;
+}
+body.site-body .merimag-header-content .elementor-section.elementor-section-boxed >  .elementor-container {
+	width: 100%;
+}
+
+.site-post-thumbnail {
+	margin-bottom: 30px;
+}
+/* NEW ELEMENTOR */
+body.ltr .elementor-container > .elementor-column:first-child > .elementor-element-populated {
+	padding-left: 0!important;
+}
+body.ltr .elementor-container > .elementor-column:last-child > .elementor-element-populated {
+	padding-right: 0!important;
+}
+body.rtl .elementor-container > .elementor-column:first-child > .elementor-element-populated {
+	padding-right: 0!important;
+}
+body.rtl .elementor-container > .elementor-column:last-child > .elementor-element-populated {
+	padding-left: 0!important;
+}
+@media only screen and (max-width: 767px ) {
+	body.ltr .elementor-container > .elementor-column > .elementor-element-populated {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	body.rtl .elementor-container > .elementor-column > .elementor-element-populated {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	
+}
+@media only screen and (min-width: 960px ) {
+	body.site-body .elementor-section:not(.elementor-inner-section).elementor-section-boxed > .elementor-container {
+		padding: 0 30px;
+	}
+}
+.elementor-element {
+	flex-grow: 1;
+}
+/* ELEMENTOR */
+.merimag-simple-page .site-content-width,
+.merimag-simple-page .elementor-section.elementor-section-boxed > .elementor-container {
+	width: auto;
+}
+
+.page-builder-template .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container {
+	padding: 0 15px;
+}
+body.boxed .page-builder-template .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container {
+		padding: 0;
+}
+body.boxed .page-builder-template .elementor-section-full_width {
+	margin: 0 -15px;
+}
+.site-content-area .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container,
+.merimag-header-content .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container {
+	padding: 0;
+}
+@media only screen and (min-width: 960px ) {
+	body.boxed .page-builder-template .elementor-section-full_width {
+	margin: 0 -30px;
+}
+	.page-builder-template .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container {
+		padding: 0 30px;
+	}
+	body.boxed .page-builder-template .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container {
+		padding: 0;
+	}
+	.site-content-area .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container,
+	.merimag-header-content .elementor-section-boxed:not(.elementor-inner-section) > .elementor-container  {
+		padding: 0;
+	}
+}
+.elementor-row {
+	width: auto;
+	min-width: 100%;
+}
+
+.elementor-container > .elementor-row {
+	margin-left: -10px;
+	margin-right: -10px;
+	width: calc( 100% + 20px );
+}
+.elementor-container.elementor-column-gap-narrow > .elementor-row {
+	margin-left: -5px;
+	margin-right: -5px;
+	width: calc( 100% + 10px );
+}
+.elementor-container.elementor-column-gap-default > .elementor-row {
+	margin-left: -10px;
+	margin-right: -10px;
+	width: calc( 100% + 20px );
+}
+.elementor-container.elementor-column-gap-extended > .elementor-row {
+	margin-left: -15px;
+	margin-right: -15px;
+	width: calc( 100% + 30px );
+}
+
+.elementor-container.elementor-column-gap-no > .elementor-row {
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+.elementor-container.elementor-column-gap-wide > .elementor-row {
+	margin-left: -20px;
+	margin-right: -20px;
+	width: calc( 100% + 40px );
+}
+.elementor-container.elementor-column-gap-wider > .elementor-row {
+	margin-left: -30px;
+	margin-right: -30px;
+	width: calc( 100% + 60px );
+}
+.elementor-column-gap-wider>.elementor-row>.elementor-column>.elementor-element-populated {
+	padding: 0 30px;
+}
+@media only screen and ( max-width: 960px ) {
+	.elementor-column-gap-wider>.elementor-row>.elementor-column>.elementor-element-populated {
+		padding: 15px;
+	}
+	.elementor-column-gap-wide>.elementor-row>.elementor-column>.elementor-element-populated {
+		padding: 10px;
+	}
+	.elementor-container.elementor-column-gap-wide > .elementor-row {
+		margin-left: -10px;
+		margin-right: -10px;
+		width: calc( 100% + 20px );
+	}
+	.elementor-container.elementor-column-gap-wider > .elementor-row {
+		margin-left: -15px;
+		margin-right: -15px;
+		width: calc( 100% + 30px );
+	}
+
+}
+
+.fw-container {
+	padding: 0;
+}
+html {
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+.ui.grid>.column:not(.row), .ui.grid>.row>.column {
+	width: 100%;
+}
+
+.merimag-site-container.boxed {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.merimag-site-container.boxed .merimag-full-section {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.merimag-full-section .merimag-full-section-content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.merimag-full-section .mega-menu-full .merimag-full-section-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+.merimag-general-padding {
+	padding: 15px;
+}
+@media only screen and ( min-width: 960px ) {
+	.merimag-site-container.boxed {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.merimag-site-container.boxed .merimag-full-section {
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+	body.boxed .merimag-sticky-header {
+
+	}
+	.merimag-full-section .merimag-full-section-content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.merimag-general-padding {
+		padding: 30px;
+	}
+}
+.merimag-clear {
+	clear: both;
+}
+.fs-background-container {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	 z-index: -1!important;
+}
+
+.merimag-site-content {
+	padding: 15px 0;
+	
+}
+
+.merimag-widget-area  {
+	margin-top: 30px;
+}
+@media only screen and ( min-width: 960px ) {
+	.content-sidebar-container:not(.content) .site-content-area {
+		width: 70%;
+		float: right;
+	}
+	.merimag-widget-area {
+		float: left;
+		width: 30%;
+		width: calc(30% - 45px);
+		margin-top: 0;
+	}
+	.content-sidebar-container.content-sidebar .merimag-widget-area {
+		margin-left: 45px;
+		float: right;
+	}
+	.content-sidebar-container.content-sidebar .site-content-area {
+		float: left;
+	}
+	.content-sidebar-container.sidebar-content .merimag-widget-area {
+		margin-left: 0;
+		margin-right: 45px;
+		
+	}
+
+	.merimag-site-content {
+		padding: 30px 0;
+		
+	}
+}
+@media only screen and ( min-width: 768px ) and ( max-width: 959px ) {
+	
+	.merimag-widget-area-content  {
+		column-count: 2;
+		-webkit-column-gap: 40px;
+		  -moz-column-gap: 40px;
+		  column-gap: 40px;
+	}
+	.merimag-widget-area-content .merimag-widget {
+		break-inside: avoid-column;
+	}
+}
+.content-sidebar-container:not(.content) .site-content-area {
+	order: 1;
+}
+.content-sidebar-container.sidebar-content .merimag-widget-area {
+	order: 2;
+}
+.sticky-column {
+	display: block!important;
+}
+.merimag-sticky-sidebar .merimag-widget-area,
+.merimag-sticky-sidebar .elementor-widget-sidebar,
+.sticky-column .elementor-column-wrap,
+.sticky-column .elementor-widget-wrap {
+	position: sticky;
+	top: 0;
+	display: block!important;
+}
+.page-builder-template.merimag-site-content {
+	padding: 0;
+	width: 100%;
+}
+
+.site-content-area-full {
+	width: 100%!important;
+	float: none!important;;
+}
+
+
+body.site-body .site-content-area-video {
+	padding: 0;
+	border: none;
+}
+.merimag-top-navigation .merimag-navigation-content {
+	display: flex;
+	align-items: center;
+}
+.merimag-top-navigation .merimag-navigation-content .merimag-menu-container {
+	flex-grow: 1;
+}
+.merimag-top-navigation .merimag-navigation-content > * {
+	float: left;
+	white-space: nowrap;
+	margin-right: 10px;
+}
+.merimag-top-navigation .merimag-navigation-content > *:last-child {
+	margin-right: 0;
+}
+body.rtl .merimag-top-navigation .merimag-navigation-content > * {
+	margin-right: 0;
+	margin-left: 10px;
+}
+body.rtl .merimag-top-navigation .merimag-navigation-content > *:last-child {
+	margin-left: 0;
+	margin-right: 0;
+}
+/* TICKER */
+
+.merimag-main-ticker {
+	padding: 10px 0;
+	flex-grow: 1;
+}
+.merimag-top-navigation .merimag-main-ticker {
+	overflow: hidden;
+	padding: 0!important;
+}
+.merimag-top-navigation .merimag-main-ticker .merimag-news-ticker-title {
+	line-height: 30px;
+}
+@media only screen and ( max-width: 480px ) {
+	.merimag-main-ticker {
+		padding: 4px 0;
+	}
+}
+.merimag-main-ticker.ticker_before_header {
+	border-top: none;
+}
+
+.merimag-demo-ad {
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.merimag-demo-ad img {
+	display: block;
+}
+.merimag-demo-ad:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	opacity: 0;
+	pointer-events: none;
+}
+
+.merimag-demo-ad.horizontal-ad .merimag-demo-ad-button {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	width: 40%;
+	margin-left: -20%;
+	text-align: center;
+}
+.merimag-demo-ad.vertical-ad .merimag-demo-ad-button {
+	position: absolute;
+	right: 18px;
+	top: 50%;
+	margin-top: -10px;
+}
+.merimag-demo-ad-button {
+	
+	line-height: 20px;
+	font-size: 12px;
+	display: block;
+	font-weight: 400;
+	padding: 0 10px;
+	z-index: 1;
+	border-radius: 10px;
+}
+@media only screen and ( min-width: 640px ) {
+	.merimag-demo-ad-button {
+		font-weight: bold;
+		line-height: 40px;
+		display: block;
+		padding: 0 20px;
+		z-index: 1;
+		border-radius: 10px;
+	}
+	.merimag-demo-ad.vertical-ad .merimag-demo-ad-button {
+		position: absolute;
+		right: 28px;
+		top: 50%;
+		margin-top: -20px;
+	}
+}
